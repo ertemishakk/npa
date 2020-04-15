@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+body{
+  font-family: 'Baloo Chettan 2', cursive !important;
+}
+
+
+
+
+.masthead {
+  background-image: url('./images/broome.jpg');
+  height: 100vh;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  min-height: 900px;
+  position: relative;
+  /* margin-top: 80px; */
+}
+.overlay{
+  background-color: rgba(14, 13, 13, 0.603);
+  height: 100vh;
+  min-height: 900px;
+}
+
+.brand{
+  font-size: 30px !important;
+}
+.nav-link:hover{
+  opacity: 0.5;
+}
+.nav-link{
+  font-size: 16px;
+  padding-right:30px !important;
+}
+.cart{
+  right:0 !important;
+}
+.nav-icons{
+  font-size: 25px;
+}
+
+.header{
+ margin-top: 350px;
+ font-size: 65px;
+}
+
+.kangaroo{
+  height: 40px;
+}
+
+
+  .img_container h2 {
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    top: 50%;
+    left:  50%;
+    -webkit-transform: translate(-50%, -50%); /* iOS */
+    transform: translate(-50%, -50%);
+    background-color: rgba(14, 13, 13, 0.438);
+    transition: all 0.5s ease;
+
+  }
+
+  .img_container h2:hover{
+    background-color: rgba(14, 13, 13, 0.76);
+
+  }
